@@ -13,7 +13,7 @@ Decryption -
 PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-RansomSIM.ps1");Invoke-RansomSIM -Mode Decrypt -Path 'C:\Users\tester\Documents\Test';
 
 # Bonus
-An autoIt script - you may compile it to an executable using Aut2Exe, or execute it using the interpreter
+An autoIt script - you may compile it to an executable using Aut2Exe, or execute it using the interpreter (encrypts only .doc files)
 
 **Example:**
 
