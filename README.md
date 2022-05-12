@@ -18,9 +18,11 @@ An autoIt script - you may compile it to an executable using Aut2Exe, or execute
 **Example:**
 
 Encryption - 
+
 RansomSIM.exe /encrypt C:\
   
 Decryption - 
+
 RansomSIM.exe /decrypt C:\
 
 
